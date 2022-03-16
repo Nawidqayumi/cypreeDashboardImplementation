@@ -1,0 +1,23 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "description": "Cypress project Cydeo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "test",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "author": "Nawid",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
