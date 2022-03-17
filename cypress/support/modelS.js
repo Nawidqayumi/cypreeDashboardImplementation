@@ -22,6 +22,13 @@ export class Models{
         })
     }
 
+    compareModelS(){
+        cy.scrollTo('bottomLeft')
+        cy.get('[data-gtm-interaction="compare"] > span').should('be.visible').click()
+
+
+    }
+
 
 }
 

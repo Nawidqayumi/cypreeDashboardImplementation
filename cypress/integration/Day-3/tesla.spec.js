@@ -10,4 +10,13 @@ describe('Tesla Automation Testing', () => {
         onModelSpage.urlVerification()
         onModelSpage.privacy_verification()
     });
+
+    //navigate to page 
+    //click compare
+    //check every single text on the page
+
+    it.only('compare modelS testing', () => {
+        onModelSpage.urlVerification()
+        onModelSpage.compareModelS()
+    });
 });
