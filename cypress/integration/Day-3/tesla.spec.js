@@ -15,7 +15,7 @@ describe('Tesla Automation Testing', () => {
     //click compare
     //check every single text on the page
 
-    it.only('compare modelS testing', () => {
+    it('compare modelS testing', () => {
         onModelSpage.urlVerification()
         onModelSpage.compareModelS()
     });

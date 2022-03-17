@@ -4,7 +4,8 @@
   "description": "Cypress project Cydeo",
   "main": "index.js",
   "scripts": {
-    "teslaModelS": "npx cypress run --record --key 9284b189-e845-4ad1-8fb2-803ec1ff071b  --spec 'cypress/integration/Day-3/tesla.spec.js'"
+    "teslaModelS": "npx cypress run --record --key 9284b189-e845-4ad1-8fb2-803ec1ff071b  --spec 'cypress/integration/Day-3/tesla.spec.js'",
+    "githubPage": "npx cypress run --record --key 9284b189-e845-4ad1-8fb2-803ec1ff071b  --spec 'cypress/integration/Day-4/github.spec.js'"
   },
   "keywords": [
     "e2e",
