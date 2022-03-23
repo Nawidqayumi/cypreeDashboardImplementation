@@ -66,10 +66,19 @@ describe('Etsy test case ', () => {
         cy.get('#locationInput').clear().type('Br')
         cy.get('.phs-jobs-category').click()
         cy.get('#ph-search-backdrop').should('be.visible').click()
-        cy.get('[data-ph-id="ph-page-element-page18-OsblyB"]').each(($el , index)=>{
+        // cy.get('[data-ph-id="ph-page-element-page18-OsblyB"]').each(($el , index)=>{
 
-            let text = $el.text()
-            expect(text).to.contain(careers.etsy[index])
+        //     let text = $el.text()
+        //     expect(text).to.contain(careers.etsy[index])
+        // })
+
+        cy.get('span[class="au-target locationSearch"]').each(($el)=>{
+            let locations = $el.text()
+            expect(locations).to.contain('Brooklyn, NY, United States')
+        })
+        cy.get('[class="au-target category"]').each(($el)=>{
+            let category = $el.text()
+            expect(category).to.contain('Engineering')
         })
 
     });
