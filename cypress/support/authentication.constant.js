@@ -15,3 +15,6 @@ export const modelCompareURL = "https://www.tesla.com/compare"
 
 export const githubURL = "https://www.github.com/"
 export const githubLoginURL = "https://github.com/login"
+
+export const etsyUrlOster = "https://www.etsy.com/de/featured/ostern-de?ref=easter-22-cat-nav"
+export const etsyHelpCenterUrl = "https://help.etsy.com/hc/en-us"
