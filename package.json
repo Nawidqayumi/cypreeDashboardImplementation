@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "teslaModelS": "npx cypress run --record --key 9284b189-e845-4ad1-8fb2-803ec1ff071b  --spec 'cypress/integration/Day-3/tesla.spec.js'",
-    "githubPage": "npx cypress run --record --key 9284b189-e845-4ad1-8fb2-803ec1ff071b  --spec 'cypress/integration/Day-4/github.spec.js'"
+    "githubPage": "npx cypress run --record --key 9284b189-e845-4ad1-8fb2-803ec1ff071b  --spec 'cypress/integration/Day-4/github.spec.js'",
+    "test":"node_modules\\.bin\\cypress run",
+    "day3test": "npx cypress run --config pageLoadTimeout=10000 --spec 'cypress/integration/Day-3/*.spec.js'"
   },
   "keywords": [
     "e2e",
