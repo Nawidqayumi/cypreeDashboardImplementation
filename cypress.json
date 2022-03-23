@@ -14,5 +14,19 @@
       "username": "",
       "password": ""
     },
-    "projectId": "hrp47q"
+    "projectId": "hrp47q",
+
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+
+
 }
